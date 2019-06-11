@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="leave_applications" max_length="40" name="x_364039_manage_em_leave_applications" type="collection">
+        <element label="Approver" max_length="40" name="approver" type="string"/>
+        <element label="Contact No" max_length="40" name="contact_no" type="phone_number_e164"/>
+        <element label="Duration" max_length="40" name="duration" type="integer"/>
+        <element label="Email" mandatory="true" max_length="255" name="email" type="string_full_utf8"/>
+        <element label="End Date" mandatory="true" max_length="40" name="end_date" type="glide_date_time"/>
+        <element label="Full Name" mandatory="true" max_length="40" name="full_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Project" mandatory="true" max_length="255" name="project" type="string_full_utf8"/>
+        <element label="Project Manager" max_length="40" name="project_manager" type="string"/>
+        <element default="40" label="Seat No." mandatory="true" max_length="40" name="seat_no" type="string"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date_time"/>
+        <element label="Team Lead" max_length="40" name="team_lead" type="string"/>
+    </element>
+</database>

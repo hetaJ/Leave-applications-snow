@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <hint/>
+        <name>leave_applications</name>
+        <order/>
+        <roles>x_364039_manage_em.leave_applications_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-11 10:38:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7eaf0f10db8233000f1ccd3f2996194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>leave_applications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="manage_EmployeeVacations" source="x_364039_manage_em">83ed4bdcdb4233000f1ccd3f29961978</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="manage_EmployeeVacations">83ed4bdcdb4233000f1ccd3f29961978</sys_scope>
+        <sys_update_name>sys_ui_application_7eaf0f10db8233000f1ccd3f2996194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-11 10:38:41</sys_updated_on>
+    </sys_ui_application>
+</record_update>
